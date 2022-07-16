@@ -1,0 +1,29 @@
+@import url('./responsive.css');
+
+/* css scroll  */
+ body::-webkit-scrollbar {
+     width: 7px !important;
+     height: 7px !important;
+     overflow: visible !important;
+ }
+
+ body::-webkit-scrollbar-thumb {
+     background: #6a92ce !important;
+     border-radius: 7px !important;
+ }
+
+ body::-webkit-scrollbar-thumb:horizontal {
+     background: #6a92ce !important;
+     border-radius: 7px !important;
+ }
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../img/home-solutions/loader.gif') 50% 50% no-repeat #ffffff;
+    opacity: 1;
+}
